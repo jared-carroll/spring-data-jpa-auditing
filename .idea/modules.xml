@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing_main.iml" group="spring-data-jpa-auditing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-auditing_test.iml" group="spring-data-jpa-auditing" />
+    </modules>
+  </component>
+</project>

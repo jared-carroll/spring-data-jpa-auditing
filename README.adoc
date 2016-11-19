@@ -1,0 +1,17 @@
+= Spring Data JPA Auditing
+
+Spring Boot example using Spring Security and Spring Data JPA auditing.
+
+== Run the app
+
+  ./gradlew bootRun
+
+== Post data
+
+  curl localhost:8080/data -d '{"data" : "foo"}' -H 'Content-type: application/json' -u admin:admin
+
+== View the auditing data
+
+Use the http://localhost:8080/h2-console[H2 console] with HTTP basic auth `username:password` of `admin:admin` and JDBC url of `jdbc:h2:mem:testdb` to view the auditing data.
+
+The currently logged in user is the auditor.
